@@ -1,0 +1,1120 @@
+{
+  "settings": {
+    "name": "Noleen Dental",
+    "currentPage": "noleendental.html",
+    "theme": {
+      "name": "startm5",
+      "title": "StartM5",
+      "titlePreset": "StartM5",
+      "styling": {
+        "primaryColor": "#9fe870",
+        "secondaryColor": "#ffd7ef",
+        "successColor": "#3a341c",
+        "infoColor": "#320707",
+        "warningColor": "#a0e2e1",
+        "dangerColor": "#ffea64",
+        "mainFont": "Inter Tight",
+        "display1Font": "Inter Tight",
+        "display1Size": 5,
+        "display2Font": "Inter Tight",
+        "display2Size": 4,
+        "display5Font": "Inter Tight",
+        "display5Size": 2.5,
+        "display7Font": "Inter Tight",
+        "display7Size": 1.4,
+        "display4Font": "Inter Tight",
+        "display4Size": 1.2,
+        "isRoundedImages": true,
+        "isRoundedButtons": true,
+        "isLargeButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#644343",
+        "#e284bd",
+        "#0095ac"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.9.4",
+    "siteFonts": [
+      {
+        "css": "'Inter Tight', sans-serif",
+        "name": "Inter Tight",
+        "url": "https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "favicon": false,
+    "mbrsiteDomain": "noleendental",
+    "imageResize": false,
+    "usedWebp": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 25,
+    "versionPublish": "5.9.4",
+    "screenshot": "screenshot.png",
+    "publishChangesOnly": true
+  },
+  "pages": {
+    "noleendental.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "menu2",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                    'navbar-expand-lg':!collapsed,\n                    'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"@PROJECT_PATH@/assets/images/nolen-big-logo-3.png\" alt=\"Mobirise Website Builder\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"></a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Our Practice</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Procedures</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Dental Implants</a>\n                    </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Dental Emergencies</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Testimonials</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-danger\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Book Online</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "4px",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              },
+              "&:hover span": {
+                "color": "white"
+              },
+              "&:first-child": {
+                "border-top-left-radius": "4px",
+                "border-top-right-radius": "4px"
+              },
+              "&:last-child": {
+                "border-bottom": "none",
+                "border-bottom-left-radius": "4px",
+                "border-bottom-right-radius": "4px"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": "0.667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto",
+              "flex-wrap": "nowrap",
+              "@media (max-width: 991px)": {
+                "flex-wrap": "wrap"
+              },
+              "& when (@collapsed)": {
+                "flex-wrap": "wrap"
+              }
+            },
+            ".container-fluid": {
+              "flex-wrap": "nowrap",
+              "@media (max-width: 991px)": {
+                "flex-wrap": "wrap"
+              },
+              "& when (@collapsed)": {
+                "flex-wrap": "wrap"
+              }
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".navbar-caption": {},
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "position": "absolute",
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem",
+                  "@media (max-width: 767px)": {
+                    "width": "~\"calc(100% - 31px)\""
+                  }
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_cid": "tOBUK8RUQY",
+          "_anchor": "menu2-l",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card-wrapper": {
+              "background": "@cardbg",
+              "padding": "2.5rem",
+              "@media (max-width: 992px)": {
+                "margin-bottom": "2rem"
+              },
+              "@media (max-width: 767px)": {
+                "padding": "1.5rem"
+              }
+            },
+            ".row": {
+              "justify-content": "space-between"
+            },
+            ".mbr-section-title": {
+              "color": "#2e481a"
+            }
+          },
+          "_name": "header06",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header6\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\n\t\t<header>Card</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showcardTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showcardText\" checked>\n\t\t<input type=\"color\" title=\"Background\" name=\"cardbg\" value=\"#a0e1e1\" selected>\n\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/dentists-huntington-beach.jpg\" selected parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#e284bd\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div class mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12 col-lg-5\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<h3 class=\"mbr-section-cardtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-cardtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showcardTitle\">\n\t\t\t\t\t\t<b>YOUR SMILE IS IMPORTANT TO US!</b></h3>\n\n\t\t\t\t\t<p class=\"mbr-cardtext mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showcardText\" data-app-selector=\".mbr-cardtext, .mbr-section-btn\">\n\t\t\t\t\tWe are looking forward to helping you get the smile you deserve!</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-12 col-lg-6\">\n\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n\t\t\t\t\t<b>Looking For&nbsp; A New Dentist?</b></h1>\n\t\t\t\t<h2 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubitle\">\n\t\t\t\t\tSubtitle\n\t\t\t\t</h2>\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Get in touch! We can't wait you to help you smile</p>\n\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-4\" mbr-if=\"showButtons\"><a class=\"btn btn-warning\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Book An Appointment</a> <a class=\"btn btn-danger\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Send A Message</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "tOBS28srMQ",
+          "_anchor": "header06-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card-wrapper": {
+              "background": "@wrapBgColor",
+              "@media (max-width: 767px)": {
+                "padding": "1.5rem"
+              },
+              "@media (min-width: 768px)": {
+                "padding": "2.25rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".card-title, .card-box": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_name": "article07",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article07\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline=\"\" title=\"Content Width\" name=\"contentWidth\" min=\"8\" max=\"12\" step=\"1\" value=\"10\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked=\"\">\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#a0e1e1\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n      <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/dentists-huntington-beach.jpg\" parallax=\"\">\n      <input type=\"color\" title=\"Color\" value=\"#edefeb\" selected=\"\">\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n        <div class=\"card-wrapper\">\n          <h3 class=\"card-title mbr-fonts-style mbr-white mt-3 mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>ABOUT NOLEEN DENTAL:</b>\n          </h3>\n          <div class=\"row card-box align-left\">\n            <div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><b>Best Dental Implants</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                  We offer various shipping options to accommodate your needs.\n                  During the checkout process, you will have the opportunity to\n                  select the shipping method that suits you best. These options\n                  may include standard shipping, express shipping, or expedited\n                  delivery, depending on your location and the nature of the\n                  product.\n                </p>\n              </div>\n            </div>\n            <div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><b>Dentist Huntington Beach</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                  If you live in Orange County, you’ll be happy to learn that some of the best dental implants are right here in Huntington Beach. You don’t have to travel far and wide to find an excellent dentist with a soft touch who specializes in Tooth Implant  surgical placement and planning. All-On-4 dental implants are state of the art prosthetic procedure that provides patients with fixed teeth on the same day. This particular procedure is optimal for those looking for complete lower teeth replacement, total upper teeth replacement, or both. A custom prosthetic denture is fixed to four titanium milled anchor posts in the jaw. This eliminates the need for dozens of individual posts and speeds up the process by providing an acrylic resin or all-porcelain bridge or denture that will never slip, rub or be uncomfortable.The best dental implants are not only defined by the company that makes the prosthetic, like Zimmer Biomet, Straumann, or Nobel BioCare. The best tooth implants come from qualified specialists who have years of experience performing these surgical procedures. The images you can find online of dental implants gone wrong can be pretty frightening, which is why it is imperative to choose a dentist who is a dental implant expert with a proven track record of flawless work. Dr. Nguyen has been providing exemplary dental implant work to patients in Orange County for well over 15 years. Patients who want personalized care, comfort and the best surgical placement come to Noleen Dental for full-service implant dentistry in Huntington Beach. Dr. Nguyen is an expert in single implant restoration, implant-supported bridges, fixed implant dentures and All-on-4 implants, surgical placement, and mini implants. If you would like some more information on the best dental implants, give our office a call during regular business hours, and we’ll gladly answer all of your questions. If you are ready to take the next step, we can get you in for an implant consultation and go over our affordable payment options. Don’t put off having the teeth that you deserve any longer. Our expert team will take care of you and give you a bright new smile.\n                </p>\n              </div>\n            </div>\n            \n            \n          </div>\n          <div mbr-buttons=\"\" mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Now</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_cid": "tOBS8xIXZa",
+          "_anchor": "article07-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "align-items": "center"
+            },
+            ".image-wrapper": {
+              "@media (max-width: 991px)": {
+                "padding": "1.5rem"
+              }
+            },
+            ".text-wrapper": {
+              "@media (min-width: 992px)": {
+                "padding": "0 2rem"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#0095ac",
+              "text-align": "left"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#260a30"
+            }
+          },
+          "_name": "article02",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article2\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"5\">\n\t\t<input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#EDEFEB\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"col-12 col-md-12 col-lg-{{imageWidth}} image-wrapper\">\n\t\t\t\t<img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/pro.jpg\" alt=\"Mobirise Website Builder\">\n\t\t\t</div>\n\t\t\t<div class=\"col-12 col-md-12 col-lg\">\n\t\t\t\t<div class=\"text-wrapper align-left\">\n\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>Passion, Professional, Qualified</b><br><b><br></b></h1>\n\t\t\t\t\t<p class=\"mbr-text align-left mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\tAt Noleen Dental, we believe that a great smile is something that everyone should have. It builds the esteem and confidence to live a better quality of life. Dr. Noleen Nguyen and her experienced staff of assistants and technicians have made it their mission to help all of the patients that walk through their doors look and feel their best.<br><br>Noleen Dental realizes that each patient is different, so we make sure to personalize our care for each patient. But one thing stays the same. Your comfort is paramount.<br><br><b style>Cosmetic Dentistry Professionals</b><br><br>You deserve to be able to let your smile shine! And our state-of-the-art Huntington Beach dental office will help you get that brilliant, healthy, smile that you have always wanted. The team at Noleen Dental specializes in modern cosmetic dentistry. Don’t let stained, or yellowed teeth make you hide your smile any longer. Broken, cracked, or chipped teeth can be fixed so that you feel comfortable smiling as big as you can. Other common issues that can be corrected are spaces or gaps between teeth, the alignment or shape of teeth, overbite or underbite, missing teeth, and unattractive old dental treatments that were done with antiquated technology. Dr. Nguyen has over 15 years of experience and has put together an outstanding team of dental technicians and dental hygienists that have skills and dedication to care to bring the best out of your smile. We can help you even if your dental insurance doesn’t cover cosmetic procedures or if you lack coverage. In addition to offering a 10% discount for cash payments, we have multiple financing options with low monthly payments so that you can get the service you want and the smile you deserve. Call our friendly team today and schedule your appointment. We’ll answer any questions regarding insurance, payments, and of course, the procedures and different options we have available for inlays, caps, crowns, teeth whitening, bonding, and dental veneers (Lumineers). Our scheduling coordinator is looking forward to speaking with you, so don’t delay; call today.<b style><br></b><br><br><b style><br></b><br>\n\t\t\t\t\t</p>\n\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn align-left mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Get started</a></div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "tOBSc3cO22",
+          "_anchor": "article02-8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".row": {
+              "align-items": "center"
+            },
+            ".image-wrapper": {
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              }
+            },
+            ".text-wrapper": {
+              "@media (min-width: 992px)": {
+                "padding": "0 2rem"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#0095ac"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000"
+            }
+          },
+          "_name": "article04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"5\">\n\t\t<input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"col-12 col-md-12 col-lg-{{imageWidth}} image-wrapper\">\n\t\t\t\t<img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/teeth-1.jpg\" alt=\"Mobirise Website Builder\">\n\t\t\t</div>\n\t\t\t<div class=\"col-12 col-md-12 col-lg\">\n\t\t\t\t<div class=\"text-wrapper align-left\">\n\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>Root Canal Experts Near you</b></h1>\n\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\tIf you live in the Huntington Beach area and have a severe toothache, an abscess or swelling and tenderness on your gums, or have developed hot and cold sensitivity on a certain tooth, you should schedule an appointment with Noleen Dental for a dental exam to see if you are in need of a root canal. When the nerve of your tooth is affected by infection or decay, it can be quite painful and left untreated the afflicted tooth will most certainly die and need to be removed. Root canal therapy will save you from getting your tooth pulled and the need for Dental Implants to keep the rest of your teeth positioned properly. The thought of removing bacteria, decay, and damaged nerve tissue can be scary but don’t worry, Dr. Nguyen has been practicing for well over 15 years in the Orange County area and has a soft touch. Fixing your smile comes second only to your comfort. If you don’t have dental insurance, don’t fret. Our office accepts all major credit cards and even has financing options available through CareCredit which will help you get your procedure done with no interest financing and low monthly payments so that you don’t have to wait to get your root canal therapy. We also work with Lending Club as a payment option for another form of flexible funding. Give our friendly and caring team a call today to schedule your appointment. We have a flexible schedule and if needed can get you in our state-of-the-art office outside of normal business hours.<br><br><b>Dental Implants you Can Trust</b><br><br>If you have been considering Dental Implants in Huntington Beach, Noleen Dental has more than fifteen years of experience with full-service implant dentistry. With modern technology, affordable pricing and financing at low monthly payments for those without dental insurance, there is no reason to let a missing tooth ruin your smile. Usually, the dental office will outsource surgical placement to a specialist, but at Noleen Dental, Dr. Noleen Nguyen is a placement specialist and will plan your implant surgery and place the implant post or posts into your jaw so that you do not have to deal with multiple offices for the surgery and construction of the prosthetic implant itself. With over 15 years of experience, the single implants at Noleen Dental are indistinguishable from the surrounding teeth. If you need bridge work done, implant-supported bridges are a healthy way to replace groups of teeth. Old-school bridge-work can negatively impact the bordering teeth, but the implant version is held in place, permanently and securely via implant posts in the jaw. If you have suffered from missing natural teeth for some time, relying on dentures, bone deterioration may have already occurred. In this situation, mini dental implants may be the best course of action. Regardless of your dental implant needs, the restoration and replacement teeth at Noleen Dental are created from tooth-colored porcelain and will build a beautiful, stronger smile. Call for your free Huntington Beach implant consultation today.<b><br></b><br>\n\t\t\t\t\t</p>\n\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n\t\t\t\t\t\t<a class=\"btn btn-lg btn-success-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Get Started</a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "tOBSqRI7EK",
+          "_anchor": "article04-9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>HOW WE PROVIDE THE BEST DENTAL EXPERIENCE</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>\n                    You’re Always Our #1</b><br><br>Each patient has our undivided attention troughout their reserved appointment . Your needs and goals come first!<br><br><b>Fun, Relaxing Enviroment</b><br><br>You won’t find a “stuffy” office space here. Our friendly team enjoys making the care process upbeat and very comfortable.<br><br><b>State-of-the-Art Dental Facility</b><br><br>We utilize the latest techniques and technologies for outstanding results, including a Cone Beam scanner and soft tissue laser.<br><br><b>Children to Seniors Welcome</b><br><br>We love caring for all ages and even whole families! From baby teeth to dentures, We’re familiar with every stage of  a smile.<b><br></b><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "text-align": "center",
+              "color": "#0095ac"
+            }
+          },
+          "_cid": "tOBStldQu3",
+          "_anchor": "content5-a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "background-color": "@bgColor",
+            "input": {
+              "padding": "1.2rem 1.5rem",
+              "border": "none !important",
+              "height": "100%",
+              "&:hover": {
+                "border": "none !important"
+              }
+            },
+            ".btn": {
+              "height": "100%",
+              "margin": "auto"
+            },
+            ".text-wrapper": {
+              "@media (min-width: 992px)": {
+                "padding": "0 2rem"
+              }
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            ".mbr-section-btn": {
+              "display": "flex",
+              "margin-bottom": "1.2rem",
+              "width": "fit-content",
+              ".btn": {
+                "width": "auto"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "2rem"
+              },
+              ".content-wrapper": {
+                "flex-direction": "column-reverse"
+              }
+            },
+            ".justify-content-center": {
+              "align-items": "center"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title DIV": {
+              "text-align": "center"
+            }
+          },
+          "_name": "form01",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form1\" group=\"Form\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen}\" plugins=\"formstyler, datepicker\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<header>Background</header>\n\t\t<input type=\"color\" name=\"bgColor\" title=\"Color\" value=\"#0095ac\" selected>\n\t\t<input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row content-wrapper justify-content-center\">\n\t\t\t<div mbr-form class=\"col-lg-7 mbr-form\">\n\t\t\t\t<div class=\"col-lg-12 col-md-12 col-sm-12\">\n\t\t\t\t\t<h5 class=\"mbr-section-title mbr-fonts-style mb-5\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>SCHEDULE AN APPOINTMENT FOR A COMPLIMENTARY CONSULTATION&nbsp;</b><b style=\"font-size: 1.4rem;\">ON DENTAL IMPLANTS</b><br><br><span style=\"font-size: 1.4rem;\">The first step toward achieving a beautiful and healthy smile.</span></h5>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"text-wrapper align-left\">\n\t\t\t\t\t<!--Formbuilder Form-->\n\t\t\t\t\t<form action=\"mishrarohit530@gmail.com\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified=\"mishrarohit530@gmail.com\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n\t\t\t\t\t\t\t<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n\t\t\t\t\t\t\t\tOops...! some problem!\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"dragArea row\">\n\t\t\t\t\t\t\t<div data-for=\"email\" class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\n\t\t\t\t\t\t\t\t<input type=\"email\" name=\"email\" placeholder=\"test@email.com\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-auto mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\"><a type=\"submit\" class=\"w-100 w-100 w-100 w-100 w-100 w-100 btn btn-white-outline\" data-app-placeholder=\"Type Text\">Get Started</a></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</form>\n\t\t\t\t\t<!--Formbuilder Form-->\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "tOC1ZKvvCn",
+          "_anchor": "form01-m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-iconfont": {
+              "margin": "auto",
+              "display": "inline-flex",
+              "font-size": "2rem",
+              "color": "@iconColor",
+              "width": "40px",
+              "justify-content": "center",
+              "align-items": "center"
+            },
+            ".card-title, .iconfont-wrapper": {
+              "color": "#232323"
+            },
+            ".card-text": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "color": "#0095ac"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            ".content-head": {
+              "max-width": "800px"
+            }
+          },
+          "_name": "people02",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"people2\" group=\"People\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n\t\t<select title=\"Columns\" name=\"cardsWidth\">\n\t\t\t<option value=\"6\">2</option>\n\t\t\t<option value=\"4\" selected>3</option>\n\t\t\t<option value=\"3\">4</option>\n\t\t</select>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\n\t\t<header>Card</header>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Name\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Stars\" name=\"showStars\" checked>\n\n\t\t<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffeb69\" selected>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#edefeb\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row mb-5 justify-content-center\">\n\t\t\t<div class=\"col-12 content-head\" mbr-if=\"showMainTitle || showMainSubtitle\" mbr-class=\"{'col-lg-9': cardsAmount == '3'}\">\n\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-5\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><b>WHAT OUR PATIENTS SAY</b></h3>\n\t\t\t\t<h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\"></h5>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"row\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<div class=\"item features-without-image col-12 col-md-6 col-lg-{{cardsWidth}} mb-5 active\">\n\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t<div class=\"card-box align-center\">\n\t\t\t\t\t\t\t<div class=\"iconfont-wrapper mb-3\" mbr-if=\"showStars\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .iconfont-wrapper\">Our family has been going to Dr. Noleen office for over eight years. She was recommended by a friend of mine when I needed my wisdom tooth removed, and she did a fantastic job. I recommend her to everyone that I know. The office is clean and inviting. The front desk staff is always friendly and makes you feel welcome. Dr. Noleen went out of her way to make sure I was feeling great with the new dental procedures. She does the work herself and takes her time as well as teaching her assistants. Dr. Noleen is the best!</h5>\n\t\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".card-text\"><b>\n\t\t\t\t\t\t\t\tCesar M.</b></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{cardsWidth}} mb-5\">\n\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t<div class=\"card-box align-center\">\n\t\t\t\t\t\t\t<div class=\"iconfont-wrapper mb-3\" mbr-if=\"showStars\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .iconfont-wrapper\">I highly recommend Noleen Dental. They have a great, friendly and professional staff. I had a root canal, couple of crowns and a dental implant done. Now I have healthy teeth and I love my smile. Doctor Noleen is the best and I love her work!!!</h5>\n\t\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".card-text\"><b>\n\t\t\t\t\t\t\t\tErick Q.</b></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{cardsWidth}} mb-5\">\n\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t<div class=\"card-box align-center\">\n\t\t\t\t\t\t\t<div class=\"iconfont-wrapper mb-3\" mbr-if=\"showStars\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-star mobi-mbri\"></span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .iconfont-wrapper\">First and foremost I want to say that Dr. Nolan and the staff of Nolene dental is absolutely awesome they rock they make sure that all your needs are met the very attentive friendly are they just make it feel like family not to mention Dr. Nolan she just worked her magic, Walked in with the so so smile came out with $1 million smile once again this is a five star review I've been going to her office for the last eight years and recommend her to all friends &amp; family.</h5>\n\t\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".card-text\"><b>\n\t\t\t\t\t\t\t\tRonnie M.</b></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t<div class=\"row mt-0 mt-md-5\">\n\t\t\t<div class=\"col-12 align-center\" mbr-if=\"showButtons\">\n\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\">\n\t\t\t\t\t<a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Read More</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "tOBSChHNgr",
+          "_anchor": "people02-c",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "map1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"map1\" group=\"Maps\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Map</header>\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.7038240423612!2d-117.99205668488321!3d33.71661198069859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd26f69d87188f%3A0x1897f17dea380601!2sNoleen%20Dental!5e0!3m2!1sen!2sus!4v1624377252243!5m2!1sen!2sus&quot; width=&quot;100%&quot; height=&quot;350&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.7038240423612!2d-117.99205668488321!3d33.71661198069859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd26f69d87188f%3A0x1897f17dea380601!2sNoleen%20Dental!5e0!3m2!1sen!2sus!4v1624377252243!5m2!1sen!2sus&quot; width=&quot;100%&quot; height=&quot;350&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot;></iframe>\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#0095ac\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"mbr-section-head mb-4\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>HUNTINGTON BEACH</b><br>16903 BEACH BLVD,\n<div>HUNTINGTON BEACH, CA 92647</div><br><div><b>MAP &amp; DIRECTIONS\n</b></div><div><b>CALL: </b>(714) 379-6248</div><div><b>\n</b></div></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                Find us here\n            </h4>\n        </div>\n        <div class=\"google-map\" mbr-map=\"googleMap\">\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".google-map": {
+              "height": "30rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_cid": "tOBSKNAhx9",
+          "_anchor": "map1-e",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "background-color": "@bgColor",
+            "input": {
+              "padding": "1.2rem 1.5rem",
+              "border": "none !important",
+              "height": "100%",
+              "&:hover": {
+                "border": "none !important"
+              }
+            },
+            ".btn": {
+              "height": "100%",
+              "margin": "auto"
+            },
+            ".text-wrapper": {
+              "@media (min-width: 992px)": {
+                "padding": "0 2rem"
+              }
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            ".mbr-section-btn": {
+              "display": "flex",
+              "margin-bottom": "1.2rem",
+              "width": "fit-content",
+              ".btn": {
+                "width": "auto"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "2rem"
+              },
+              ".content-wrapper": {
+                "flex-direction": "column-reverse"
+              }
+            },
+            ".justify-content-center": {
+              "align-items": "center"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "form01",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form1\" group=\"Form\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen}\" plugins=\"formstyler, datepicker\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<header>Background</header>\n\t\t<input type=\"color\" name=\"bgColor\" title=\"Color\" value=\"#0095ac\" selected>\n\t\t<input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row content-wrapper justify-content-center\">\n\t\t\t<div mbr-form class=\"col-lg-7 mbr-form\">\n\t\t\t\t<div class=\"col-lg-12 col-md-12 col-sm-12\">\n\t\t\t\t\t<h5 class=\"mbr-section-title mbr-fonts-style mb-5\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n\t\t\t\t\t\t<b>Newsletter</b></h5>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"text-wrapper align-left\">\n\t\t\t\t\t<!--Formbuilder Form-->\n\t\t\t\t\t<form action=\"mishrarohit530@gmail.com\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified=\"mishrarohit530@gmail.com\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n\t\t\t\t\t\t\t<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n\t\t\t\t\t\t\t\tOops...! some problem!\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"dragArea row\">\n\t\t\t\t\t\t\t<div data-for=\"email\" class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\n\t\t\t\t\t\t\t\t<input type=\"email\" name=\"email\" placeholder=\"test@email.com\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-auto mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\"><a type=\"submit\" class=\"w-100 w-100 w-100 w-100 w-100 w-100 btn btn-secondary\" data-app-placeholder=\"Type Text\">Subscribe</a></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</form>\n\t\t\t\t\t<!--Formbuilder Form-->\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "tOBSUXGari",
+          "_anchor": "form01-g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "footer4",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer4\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Logo Size\" name=\"logoSize\" min=\"1\" max=\"3\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-6 col-lg-3\">\n                <div class=\"media-wrap col-md-{{4*logoSize}} col-12\">\n                    <a href=\"https://mobiri.se/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/nolen-big-logo.png\" alt=\"Mobirise Website Builder\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>About</b>\n                </h5>\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                    At Noleen Dental, we provide advanced care to treat a variety of concerns, including the replacement of missing teeth.</p>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showTitle && showSocial\">\n                    <b>Follow Us</b>\n                </h5>\n                <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/https://www.facebook.com/NoleenDental/timelinemobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(215, 0, 129); fill: rgb(215, 0, 129);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\" style=\"color: rgb(215, 0, 129); fill: rgb(215, 0, 129);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://www.instagram.com/noleen_dental/?igshid=YmMyMTA2M2Y%3D\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(215, 0, 129); fill: rgb(215, 0, 129);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>USEFUL LINKS</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.noleendental.com/dental-emergencies/\" class=\"text-secondary text-primary\" target=\"_blank\">Dental Emergencies</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://www.noleendental.com/care-to-share-program-rewards/\" class=\"text-secondary\" target=\"_blank\">Care To Share Program Rewards</a></li>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.noleendental.com/dental-implants/\" class=\"text-secondary\" target=\"_blank\">Dental Implants</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://www.noleendental.com/our-practice/\" class=\"text-secondary\" target=\"_blank\">Our Practice</a></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>GET IN TOUCH</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\">16903 Beach Blvd,\n</li><li class=\"mbr-text item-wrap\">Huntington Beach, CA 92647'</li><li class=\"mbr-text item-wrap\"><br></li>\n                    <li class=\"mbr-text item-wrap\">(714) 379-6248</li>\n                </ul>\n            </div>\n            <div class=\"col-12 mt-4\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style copyright align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2025 Mobirise - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".media-wrap": {
+              "padding": "0",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "1rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".row": {
+                "text-align": "center",
+                "& > div": {
+                  "margin": "auto"
+                }
+              },
+              ".social-row": {
+                "justify-content": "center"
+              }
+            },
+            ".social-row": {
+              "display": "flex",
+              "flex-wrap": "wrap"
+            },
+            ".list": {
+              "list-style": "none",
+              "padding-left": "0",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "margin-bottom": "0rem"
+              },
+              "color": "#e284bd"
+            },
+            ".mbr-text": {
+              "color": "#bbbbbb"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "50%",
+              "background-color": "white",
+              "margin-right": "0.5rem",
+              "margin-bottom": "1rem",
+              "padding": "0.5rem",
+              "height": "2.5rem",
+              "width": "2.5rem"
+            },
+            ".mbr-iconfont": {
+              "color": "black"
+            },
+            "@media (max-width: 991px)": {
+              "div > *:last-child": {
+                "margin-top": "0 !important"
+              }
+            }
+          },
+          "_cid": "tOBT1siYXE",
+          "_anchor": "footer4-h",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
